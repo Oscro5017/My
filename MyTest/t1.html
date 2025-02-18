@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Emoji&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --darkblue: #1f2937;
+            --secondarytxt-size: 18px;
+            --secondarytxt-color: #e5e7eb;
+            --accent-color: #3882f6;
+            --quoteBG: #e5e7eb;
+            --sectionheight: 500px;
+            --logo-hero-color: #f9faf8;
+        }
+
+        * {
+            font-family: "Roboto", sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: var(--darkblue);
+            color: var(--logo-hero-color);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav a {
+            color: var(--logo-hero-color);
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 1rem;
+        }
+
+        .hero {
+            background-color: var(--darkblue);
+            color: var(--logo-hero-color);
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        .hero p {
+            margin: 20px 0;
+            font-size: var(--secondarytxt-size);
+            color: var(--secondarytxt-color);
+        }
+
+        .hero button {
+            background-color: var(--accent-color);
+            color: var(--secondarytxt-color);
+            border: none;
+            padding: 10px 20px;
+            font-size: var(--secondarytxt-size);
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .services {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .services h2 {
+            margin-bottom: 30px;
+        }
+
+        .service-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .service-item img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KS Tech</h1>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Who We Serve</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>IT problems make you want to pull your hair out?</h1>
+        <p>Let KS Tech be the hair tie that holds your company together! Our team of experts will fix all your technical woes with a side of humor. Whether you need a website built or your network secured, we'll get the job done with a smile. And with our clear communication, you'll always know what's happening, no tech jargon allowed! So why stress, when you can laugh and schedule a call with KS Tech today?</p>
+        <button>Schedule a call</button>
+    </section>
+
+    <section class="services">
+        <h2>Stay Up, Stay Running, Stay Protected</h2>
+        <div class="service-items">
+            <div class="service-item">
+                <img src="https://via.placeholder.com/50" alt="Service 1">
+                <p>Service 1</p>
+            </div>
+            <div class="service-item">
+                <img src="https://via.placeholder.com/50" alt="Service 2">
+                <p>Service 2</p>
+            </div>
+            <div class="service-item">
+                <img src="https://via.placeholder.com/50" alt="Service 3">
+                <p>Service 3</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

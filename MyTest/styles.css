@@ -1,0 +1,151 @@
+/* General styles */
+:root {
+    --darkblue: #1F2937;
+    --lightgray: #E5E7EB;
+    --accent-color: #3882F6;
+    --white: #F9FAF8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--darkblue);
+    background-color: white;
+}
+
+/* Header */
+.header {
+    background-color: var(--darkblue);
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header .nav-links a {
+    color: var(--lightgray);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--lightgray);
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Info section */
+.info {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--darkblue);
+    margin-bottom: 20px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info .box {
+    text-align: center;
+    width: 20%;
+}
+
+.info .box .box-image {
+    height: 100px;
+    border: 2px solid var(--accent-color);
+    margin-bottom: 10px;
+}
+
+/* Quote section */
+.quote {
+    background-color: var(--lightgray);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--darkblue);
+}
+
+/* CTA section */
+.cta {
+    background-color: var(--accent-color);
+    color: var(--white);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cta .btn {
+    padding: 10px 20px;
+    background-color: var(--white);
+    color: var(--darkblue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--darkblue);
+    color: var(--lightgray);
+    text-align: center;
+    padding: 20px;
+}
