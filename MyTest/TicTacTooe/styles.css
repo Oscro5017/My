@@ -12,6 +12,11 @@ body {
   font-family: sans-serif;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 #grid {
   align-content: space-between;
   background-color: rgba(0,0,0,0.5);
@@ -36,11 +41,19 @@ body {
   width: 100%;
 }
 
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
 button {
+  text-align: center;
   padding: 10px 10px;
   font-size: large;
   font-weight: bold;
   border-radius: 30px;
   color: white;
-  background: rgb(94, 94, 94);
+  background: rgb(0,0,0,0.5);
+  border: rgb(0,0,0,0.5);
 }
